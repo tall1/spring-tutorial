@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class PersonRepositoryImpl {
+public class PersonRepositoryImpl { // JDBC!!!
 
     private Connection con;
     private Statement stmt;
